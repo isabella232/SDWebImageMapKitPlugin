@@ -21,22 +21,15 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/lizhuoli1126@126.com/SDWebImageMapKitPlugin'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/SDWebImage/SDWebImageMapKitPlugin'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'lizhuoli1126@126.com' => 'lizhuoli1126@126.com' }
-  s.source           = { :git => 'https://github.com/lizhuoli1126@126.com/SDWebImageMapKitPlugin.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'DreamPiggy' => 'lizhuoli1126@126.com' }
+  s.source           = { :git => 'https://github.com/SDWebImage/SDWebImageMapKitPlugin.git', :tag => s.version.to_s }
 
+  s.osx.deployment_target = '10.10'
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'SDWebImageMapKitPlugin/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'SDWebImageMapKitPlugin' => ['SDWebImageMapKitPlugin/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.tvos.deployment_target = '9.2'
+  s.source_files = 'SDWebImageMapKitPlugin/Classes/*.{h,m}'
+  s.framework = 'MapKit'
+  s.dependency 'SDWebImage', '~> 5.5'
 end

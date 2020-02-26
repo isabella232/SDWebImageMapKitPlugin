@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		323A75652406779E00988FB0 /* MKAnnotationView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B190142406612100BBD9E5 /* MKAnnotationView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		323A75662406779E00988FB0 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B190122406612100BBD9E5 /* MKAnnotationView+WebCache.m */; };
+		323A75672406779E00988FB0 /* SDWebImageMapKitPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B190092406514500BBD9E5 /* SDWebImageMapKitPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		323A75682406779F00988FB0 /* MKAnnotationView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B190142406612100BBD9E5 /* MKAnnotationView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		323A75692406779F00988FB0 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B190122406612100BBD9E5 /* MKAnnotationView+WebCache.m */; };
+		323A756A2406779F00988FB0 /* SDWebImageMapKitPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B190092406514500BBD9E5 /* SDWebImageMapKitPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		323A756C240677F600988FB0 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323A756B240677F600988FB0 /* SDWebImage.framework */; };
+		323A75702406780400988FB0 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323A756F2406780400988FB0 /* SDWebImage.framework */; };
+		32B1900B2406514500BBD9E5 /* SDWebImageMapKitPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B190092406514500BBD9E5 /* SDWebImageMapKitPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32B190152406612100BBD9E5 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B190122406612100BBD9E5 /* MKAnnotationView+WebCache.m */; };
+		32B190172406612100BBD9E5 /* MKAnnotationView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B190142406612100BBD9E5 /* MKAnnotationView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32B1901A240661C800BBD9E5 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B19019240661C800BBD9E5 /* SDWebImage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		323A75502406771200988FB0 /* SDWebImageMapKitPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImageMapKitPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		323A755D2406772200988FB0 /* SDWebImageMapKitPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImageMapKitPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		323A756B240677F600988FB0 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/Mac/SDWebImage.framework; sourceTree = "<group>"; };
+		323A756F2406780400988FB0 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/tvOS/SDWebImage.framework; sourceTree = "<group>"; };
+		32B190062406514500BBD9E5 /* SDWebImageMapKitPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImageMapKitPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B190092406514500BBD9E5 /* SDWebImageMapKitPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDWebImageMapKitPlugin.h; path = Module/SDWebImageMapKitPlugin.h; sourceTree = "<group>"; };
+		32B1900A2406514500BBD9E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Module/Info.plist; sourceTree = "<group>"; };
+		32B190122406612100BBD9E5 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		32B190142406612100BBD9E5 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		32B19019240661C800BBD9E5 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		323A754D2406771200988FB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323A756C240677F600988FB0 /* SDWebImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323A755A2406772200988FB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323A75702406780400988FB0 /* SDWebImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B190032406514500BBD9E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B1901A240661C800BBD9E5 /* SDWebImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32B18FFC2406514500BBD9E5 = {
+			isa = PBXGroup;
+			children = (
+				32B190082406514500BBD9E5 /* SDWebImageMapKitPlugin */,
+				32B190072406514500BBD9E5 /* Products */,
+				32B19018240661C800BBD9E5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		32B190072406514500BBD9E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32B190062406514500BBD9E5 /* SDWebImageMapKitPlugin.framework */,
+				323A75502406771200988FB0 /* SDWebImageMapKitPlugin.framework */,
+				323A755D2406772200988FB0 /* SDWebImageMapKitPlugin.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32B190082406514500BBD9E5 /* SDWebImageMapKitPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				32B190112406612100BBD9E5 /* Classes */,
+				32B190092406514500BBD9E5 /* SDWebImageMapKitPlugin.h */,
+				32B1900A2406514500BBD9E5 /* Info.plist */,
+			);
+			path = SDWebImageMapKitPlugin;
+			sourceTree = "<group>";
+		};
+		32B190112406612100BBD9E5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				32B190142406612100BBD9E5 /* MKAnnotationView+WebCache.h */,
+				32B190122406612100BBD9E5 /* MKAnnotationView+WebCache.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		32B19018240661C800BBD9E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				323A756F2406780400988FB0 /* SDWebImage.framework */,
+				323A756B240677F600988FB0 /* SDWebImage.framework */,
+				32B19019240661C800BBD9E5 /* SDWebImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		323A754B2406771200988FB0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323A75652406779E00988FB0 /* MKAnnotationView+WebCache.h in Headers */,
+				323A75672406779E00988FB0 /* SDWebImageMapKitPlugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323A75582406772200988FB0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323A75682406779F00988FB0 /* MKAnnotationView+WebCache.h in Headers */,
+				323A756A2406779F00988FB0 /* SDWebImageMapKitPlugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B190012406514500BBD9E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B190172406612100BBD9E5 /* MKAnnotationView+WebCache.h in Headers */,
+				32B1900B2406514500BBD9E5 /* SDWebImageMapKitPlugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		323A754F2406771200988FB0 /* SDWebImageMapKitPlugin macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 323A75552406771200988FB0 /* Build configuration list for PBXNativeTarget "SDWebImageMapKitPlugin macOS" */;
+			buildPhases = (
+				323A754B2406771200988FB0 /* Headers */,
+				323A754C2406771200988FB0 /* Sources */,
+				323A754D2406771200988FB0 /* Frameworks */,
+				323A754E2406771200988FB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDWebImageMapKitPlugin macOS";
+			productName = "SDWebImageMapKitPlugin macOS";
+			productReference = 323A75502406771200988FB0 /* SDWebImageMapKitPlugin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		323A755C2406772200988FB0 /* SDWebImageMapKitPlugin tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 323A75622406772200988FB0 /* Build configuration list for PBXNativeTarget "SDWebImageMapKitPlugin tvOS" */;
+			buildPhases = (
+				323A75582406772200988FB0 /* Headers */,
+				323A75592406772200988FB0 /* Sources */,
+				323A755A2406772200988FB0 /* Frameworks */,
+				323A755B2406772200988FB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDWebImageMapKitPlugin tvOS";
+			productName = "SDWebImageMapKitPlugin tvOS";
+			productReference = 323A755D2406772200988FB0 /* SDWebImageMapKitPlugin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		32B190052406514500BBD9E5 /* SDWebImageMapKitPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32B1900E2406514500BBD9E5 /* Build configuration list for PBXNativeTarget "SDWebImageMapKitPlugin" */;
+			buildPhases = (
+				32B190012406514500BBD9E5 /* Headers */,
+				32B190022406514500BBD9E5 /* Sources */,
+				32B190032406514500BBD9E5 /* Frameworks */,
+				32B190042406514500BBD9E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDWebImageMapKitPlugin;
+			productName = SDWebImageMapKitPlugin;
+			productReference = 32B190062406514500BBD9E5 /* SDWebImageMapKitPlugin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32B18FFD2406514500BBD9E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = cocoapods;
+				TargetAttributes = {
+					323A754F2406771200988FB0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					323A755C2406772200988FB0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					32B190052406514500BBD9E5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 32B190002406514500BBD9E5 /* Build configuration list for PBXProject "SDWebImageMapKitPlugin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32B18FFC2406514500BBD9E5;
+			productRefGroup = 32B190072406514500BBD9E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32B190052406514500BBD9E5 /* SDWebImageMapKitPlugin */,
+				323A754F2406771200988FB0 /* SDWebImageMapKitPlugin macOS */,
+				323A755C2406772200988FB0 /* SDWebImageMapKitPlugin tvOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		323A754E2406771200988FB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323A755B2406772200988FB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B190042406514500BBD9E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		323A754C2406771200988FB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323A75662406779E00988FB0 /* MKAnnotationView+WebCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323A75592406772200988FB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323A75692406779F00988FB0 /* MKAnnotationView+WebCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B190022406514500BBD9E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B190152406612100BBD9E5 /* MKAnnotationView+WebCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		323A75562406771200988FB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SDWebImageMapKitPlugin/Module/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.SDWebImageMapKitPlugin-macOS";
+				PRODUCT_MODULE_NAME = SDWebImageMapKitPlugin;
+				PRODUCT_NAME = SDWebImageMapKitPlugin;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		323A75572406771200988FB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SDWebImageMapKitPlugin/Module/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.SDWebImageMapKitPlugin-macOS";
+				PRODUCT_MODULE_NAME = SDWebImageMapKitPlugin;
+				PRODUCT_NAME = SDWebImageMapKitPlugin;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		323A75632406772200988FB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SDWebImageMapKitPlugin/Module/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.SDWebImageMapKitPlugin-tvOS";
+				PRODUCT_MODULE_NAME = SDWebImageMapKitPlugin;
+				PRODUCT_NAME = SDWebImageMapKitPlugin;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		323A75642406772200988FB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SDWebImageMapKitPlugin/Module/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.SDWebImageMapKitPlugin-tvOS";
+				PRODUCT_MODULE_NAME = SDWebImageMapKitPlugin;
+				PRODUCT_NAME = SDWebImageMapKitPlugin;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		32B1900C2406514500BBD9E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32B1900D2406514500BBD9E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32B1900F2406514500BBD9E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SDWebImageMapKitPlugin/Module/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.SDWebImageMapKitPlugin;
+				PRODUCT_MODULE_NAME = SDWebImageMapKitPlugin;
+				PRODUCT_NAME = SDWebImageMapKitPlugin;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32B190102406514500BBD9E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SDWebImageMapKitPlugin/Module/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.SDWebImageMapKitPlugin;
+				PRODUCT_MODULE_NAME = SDWebImageMapKitPlugin;
+				PRODUCT_NAME = SDWebImageMapKitPlugin;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		323A75552406771200988FB0 /* Build configuration list for PBXNativeTarget "SDWebImageMapKitPlugin macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323A75562406771200988FB0 /* Debug */,
+				323A75572406771200988FB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		323A75622406772200988FB0 /* Build configuration list for PBXNativeTarget "SDWebImageMapKitPlugin tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323A75632406772200988FB0 /* Debug */,
+				323A75642406772200988FB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32B190002406514500BBD9E5 /* Build configuration list for PBXProject "SDWebImageMapKitPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B1900C2406514500BBD9E5 /* Debug */,
+				32B1900D2406514500BBD9E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32B1900E2406514500BBD9E5 /* Build configuration list for PBXNativeTarget "SDWebImageMapKitPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B1900F2406514500BBD9E5 /* Debug */,
+				32B190102406514500BBD9E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32B18FFD2406514500BBD9E5 /* Project object */;
+}
