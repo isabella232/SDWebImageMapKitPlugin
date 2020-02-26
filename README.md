@@ -69,6 +69,24 @@ let imageURL: URL
 annotationView.sd_setImage(with: imageURL)
 ```
 
+## Demo
+
+If you have some issue about usage, SDWebImageMapKitPlugin provide a demo for iOS && macOS platform. To run the demo, clone the repo and run the following command.
+
+```bash
+cd Example/
+pod install
+open SDWebImageMapKitPlugin.xcworkspace
+```
+
+After the Xcode project was opened, click `Run` to build and run the demo.
+
+## Screenshot
+
+<img src="https://raw.githubusercontent.com/SDWebImage/SDWebImageMapKitPlugin/master/Example/Screenshot/MapKitDemo.png" width="300" />
+
+The annotation pin icon is from [icons8.com](https://icons8.com/icon/19326/map-pin)
+
 ## Author
 
 DreamPiggy
